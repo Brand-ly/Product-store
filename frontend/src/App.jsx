@@ -26,19 +26,5 @@ function App() {
   
 }
 
-//export  default App
-export default function App() {
-  return (
-    <div className="p-8 space-y-4">
-      <h1 className="text-4xl text-primary">Hello DaisyUI</h1>
-      <button className="btn btn-primary">Primary Button</button>
-      <button className="btn btn-secondary">Secondary Button</button>
-      <div className="card w-96 bg-base-100 shadow-xl">
-        <div className="card-body">
-          <h2 className="card-title">Card title!</h2>
-          <p>If DaisyUI is working, this should be styled.</p>
-        </div>
-      </div>
-    </div>
-  );
-}
+export  default App
+
